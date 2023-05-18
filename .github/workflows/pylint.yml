@@ -1,0 +1,12 @@
+name: Проверка всего
+on: [push]
+jobs:
+  tests:
+    name: Тесты 
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Тест 
+      run: |
+        chmod +x tests.sh
+        ./tests.sh zadacha.sh
