@@ -1,4 +1,4 @@
-##!/bin/bash
+#!/bin/bash
 file=$1
 chmod +x $1
 
