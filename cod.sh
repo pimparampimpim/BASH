@@ -24,6 +24,8 @@ do
     countera=$((countera+1))
 done
 
+echo "$countera"
+echo "$counterb"
 
 if [[ $countera -eq 3 ]] && [[ $counterb -eq 24 ]]
 then

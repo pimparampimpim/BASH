@@ -9,7 +9,6 @@ then
     sleep 2
     echo "$password" > $3
     exit 0
-fi
 
 else
     echo 'не хватает аргументов'
