@@ -9,4 +9,5 @@ jobs:
     - name: Тест 
       run: |
         chmod +x tests.sh
+        chmod +x zadacha.sh
         ./tests.sh zadacha.sh

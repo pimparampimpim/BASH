@@ -1,6 +1,5 @@
 #!/bin/bash
 file=$1
-chmod +x $1
 
 
 echo "first test"
